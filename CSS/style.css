@@ -1,0 +1,109 @@
+h1{
+  color: pink;
+  text-align: center;
+  font-family: Snell Roundhand;
+  font-style: bold underline;
+  font-size: 5em;
+}
+h2{
+    color: pink;
+    text-align: center;
+    font-family: Snell Roundhands;
+    font-style: italic;
+    font-style: bold;
+}
+p {
+  color: pink;
+  text-align: center;
+  font-family: Snell Roundhands;
+  font-style: italic;
+}
+}
+.logo{
+  width: 25%;
+  margin: center;
+  padding-left: 475px;
+}
+
+.main-content {
+  color: pink;
+  text-align: center;
+  font-family: Snell Roundhands;
+  font-style: italic;
+  border: pink 5px solid
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
+
+li {
+    float: center;
+    display: inline-block;
+}
+li a {
+  font-family: Snell Roundhand;
+  font-style: bold;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+a {
+text-decoration: none;
+color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.column img{
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 100%;
+}
+
+/* Fake image */
+.fakeimg {
+    width: 100%;
+}
+
+.fakeimg img {
+  width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.blogrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    padding: 20px;
+    /* background: #f1f1f1; */
+}
