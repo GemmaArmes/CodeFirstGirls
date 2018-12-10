@@ -20,9 +20,10 @@ p {
 }
 }
 .logo{
+  text-align: center;
   width: 25%;
   margin: center;
-  padding-left: 475px;
+  padding-left: 600px;
 }
 
 .main-content {
